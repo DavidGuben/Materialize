@@ -1,12 +1,10 @@
 import React, { Component } from 'react';
-import { Button, Col, Container, Row, Footer } from 'mdbreact';
-import { Dropdown, DropdownToggle, DropdownMenu, DropdownItem } from 'mdbreact';
-
+import {Link} from 'react-router-dom';
 class Navi extends Component {
   render() {
     return(
       <nav class="navbar navbar-expand-lg navbar-dark indigo">
-          <a class="navbar-brand" href="#">Navbar</a>
+          <a class="navbar-brand" href="">Navbar</a>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#basicExampleNav" aria-controls="basicExampleNav"
               aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
@@ -14,15 +12,15 @@ class Navi extends Component {
           <div class="collapse navbar-collapse" id="basicExampleNav">
               <ul class="navbar-nav mr-auto">
                   <li class="nav-item active">
-                      <a class="nav-link" href="#">Home
+                      <Link class="nav-link" to="/">Home
                           <span class="sr-only">(current)</span>
-                      </a>
+                      </Link>
                   </li>
                   <li class="nav-item">
-                      <a class="nav-link" href="Features">Features</a>
+                      <Link class="nav-link" to="/Features">Features</Link>
                   </li>
                   <li class="nav-item">
-                      <a class="nav-link" href="#">Pricing</a>
+                      <Link class="nav-link" to="/Pricing">Pricing</Link>
                   </li>
                   <li class="nav-item">
                   </li>

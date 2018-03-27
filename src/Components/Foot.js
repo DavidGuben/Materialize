@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Button, Col, Container, Row, Footer } from 'mdbreact';
+import { Col, Container, Row, Footer } from 'mdbreact';
 
 class Foot extends Component {
   render() {
@@ -15,17 +15,17 @@ class Foot extends Component {
                     <Col sm="6">
                         <h5 className="title">Links</h5>
                         <ul>
-                        <li className="list-unstyled"><a href="#!">Link 1</a></li>
-                        <li className="list-unstyled"><a href="#!">Link 2</a></li>
-                        <li className="list-unstyled"><a href="#!">Link 3</a></li>
-                        <li className="list-unstyled"><a href="#!">Link 4</a></li>
+                        <li className="list-unstyled"><a href="">Link 1</a></li>
+                        <li className="list-unstyled"><a href="">Link 2</a></li>
+                        <li className="list-unstyled"><a href="">Link 3</a></li>
+                        <li className="list-unstyled"><a href="">Link 4</a></li>
                         </ul>
                     </Col>
                   </Row>
                   <hr />
                   <Row>
                     <Col sm="12">
-                        <h5 className="title App-title"><a href="#" className="btn btn-secondary">Sign up</a></h5>
+                        <h5 className="title App-title"><a href="" className="btn btn-secondary">Sign up</a></h5>
 
                     </Col>
                   </Row>

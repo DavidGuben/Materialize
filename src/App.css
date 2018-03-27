@@ -23,7 +23,12 @@
 .App-intro {
   font-size: large;
 }
+
 .imgTest {
   height: 100%;
   width: 100%;
+}
+
+.topMargin {
+  margin-top: 20px;
 }
