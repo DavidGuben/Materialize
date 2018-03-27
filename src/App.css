@@ -9,7 +9,7 @@
 }
 
 .App-header {
-  background-color: #222;
+  background-color: #3e4551;
   height: 150px;
   padding: 20px;
   color: white;
@@ -31,4 +31,11 @@
 
 .topMargin {
   margin-top: 20px;
+}
+
+.cardBG {
+  background: linear-gradient(to bottom right,  cyan, #4C52FF );
+}
+.whiteText {
+  color: #fff;
 }

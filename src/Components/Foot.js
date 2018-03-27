@@ -5,7 +5,7 @@ class Foot extends Component {
   render() {
     return (
         <main>
-      <Footer color="blue" className="font-small pt-4 mt-4">
+      <Footer color="stylish-color-dark" className="font-small pt-4 mt-4">
               <Container className="text-left">
                   <Row>
                     <Col sm="6">
