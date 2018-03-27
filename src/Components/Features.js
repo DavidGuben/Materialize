@@ -1,12 +1,24 @@
 import React, { Component } from 'react';
 
+import MyListGroup from './ListGroup';
+
 import './../App.css';
 
 class Features extends Component {
   render() {
     return (
       <div className="App">
-        <p>Features</p>
+        <div className="row">
+          <div className="col-md-4 topMargin">
+            <MyListGroup />
+          </div>
+          <div className="col-md-4 topMargin">
+            <MyListGroup />
+          </div>
+          <div className="col-md-4 topMargin">
+            <MyListGroup />
+          </div>
+        </div>
       </div>
     );
   }
