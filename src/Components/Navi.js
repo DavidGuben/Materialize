@@ -3,7 +3,7 @@ import {Link} from 'react-router-dom';
 class Navi extends Component {
   render() {
     return(
-      <nav class="navbar navbar-expand-lg navbar-dark indigo">
+      <nav class="navbar navbar-expand-lg navbar-dark blue">
           <a class="navbar-brand" href="">Navbar</a>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#basicExampleNav" aria-controls="basicExampleNav"
               aria-expanded="false" aria-label="Toggle navigation">
