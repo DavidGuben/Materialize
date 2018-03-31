@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-import Navi from './Components/Navi';
+import Navi from './Components/Navigation';
 import Header from './Components/Header';
 import Main from './Components/Main';
 import Foot from './Components/Foot';
