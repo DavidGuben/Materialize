@@ -2,8 +2,12 @@ import React from 'react'
 import { Switch, Route } from 'react-router-dom'
 
 import Body from './Body'
-import Features from './Features'
-import Pricing from './Pricing'
+import About from './About'
+import Services from './Services'
+import Portfolio from './Portfolio'
+import Contact from './Contact'
+import SocialMedia from './SocialMedia'
+
 
 // The Main component renders one of the three provided
 // Routes (provided that one matches). Both the /roster
@@ -14,8 +18,11 @@ const Main = () => (
   <main>
     <Switch>
       <Route exact path='/' component={Body} />
-      <Route path='/features' component={Features} />
-      <Route path='/Pricing' component={Pricing} />
+      <Route path='/About' component={About} />
+      <Route path='/Services' component={Services} />
+      <Route path='/Portfolio' component={Portfolio} />
+      <Route path='/Contact' component={Contact} />
+      <Route path='/SocialMedia' component={SocialMedia} />
     </Switch>
   </main>
 )

@@ -17,12 +17,19 @@ class Navi extends Component {
                       </Link>
                   </li>
                   <li class="nav-item">
-                      <Link class="nav-link" to="/Features">Features</Link>
+                      <Link class="nav-link" to="/About">About</Link>
                   </li>
                   <li class="nav-item">
-                      <Link class="nav-link" to="/Pricing">Pricing</Link>
+                      <Link class="nav-link" to="/Services">Services</Link>
                   </li>
                   <li class="nav-item">
+                      <Link class="nav-link" to="/Portfolio">Portfolio</Link>
+                  </li>
+                  <li class="nav-item">
+                      <Link class="nav-link" to="/Contact">Contact</Link>
+                  </li>
+                  <li class="nav-item">
+                      <Link class="nav-link" to="/SocialMedia">Social Media</Link>
                   </li>
               </ul>
               <form class="form-inline">
